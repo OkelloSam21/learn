@@ -23,4 +23,7 @@ fun main() {
     for (planet in solarSystem) {
         println(planet)
     }
+
+    // Add element to a list
+    println(solarSystem.add(""))
 }
