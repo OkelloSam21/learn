@@ -1,4 +1,4 @@
-package com.samuelokello.superheroes.ui.theme
+package com.samuelokello.superheroes.presentation.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes
