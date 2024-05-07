@@ -21,9 +21,11 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.samuelokello.statemanagement.data.MainViewModel
+import com.samuelokello.statemanagement.data.SignInEvent
 import com.samuelokello.statemanagement.ui.theme.StatemanagementTheme
 
 class MainActivity : ComponentActivity() {
@@ -34,32 +36,39 @@ class MainActivity : ComponentActivity() {
 //        enableEdgeToEdge()
         setContent {
             StatemanagementTheme {
-                SignInForm(viewModel)
+                SignInForm(
+                    viewModel = viewModel,
+                    onEvent = viewModel::onEvent
+                )
             }
         }
     }
 }
 @Composable
-fun SignInForm(viewModel: MainViewModel) {
+fun SignInForm(viewModel: MainViewModel, onEvent:(event:SignInEvent) -> Unit) {
     val state = viewModel.state.collectAsState()
+    val context = LocalContext.current
 
     Column(
-        Modifier.fillMaxSize().padding(16.dp),
+        Modifier
+            .fillMaxSize()
+            .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
         OutlinedTextField(
             value = state.value.userName,
-            onValueChange = {viewModel.onNameChanged(it)},
+            onValueChange = { onEvent(SignInEvent.OnUserNameUpdate(it))},
             label = { Text(text = "Uesr name")}
         )
-        Spacer(modifier = Modifier.height(16.dp))
-//        OutlinedTextField(
-//            value = state.value.email,
-//            onValueChange = { viewModel.onEmailchanged(it)},
-//            label = { Text(text = "email")}
-//        )
+        Spacer(modifier = Modifier.height(32.dp))
+        Button(
+            onClick = { onEvent(SignInEvent.OnSignUpClicked(state.value.userName, context))}
+        ) {
+            Text(text = "Sign Up")
+        }
     }
+
 }
 @Composable
 fun WaterCounter(modifier: Modifier = Modifier) {
