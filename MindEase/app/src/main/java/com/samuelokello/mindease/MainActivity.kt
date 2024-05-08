@@ -7,10 +7,13 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
+import com.samuelokello.mindease.presentation.model.TipRepository
+import com.samuelokello.mindease.presentation.ui.AppBar
+import com.samuelokello.mindease.presentation.ui.MindEaseList
 import com.samuelokello.mindease.ui.theme.MindEaseTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,10 +23,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MindEaseTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    MindEaseApp(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
@@ -31,17 +31,23 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
+fun MindEaseApp(modifier: Modifier) {
+    Scaffold(
+        topBar = { AppBar() },
+    ) { innerPadding ->
+        val context = LocalContext.current
+        val tips = TipRepository.tips
+        MindEaseList(
+            tips = tips,
+            contentPadding = innerPadding,
+        )
+    }
 }
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+private fun MindEaseAppPrev() {
     MindEaseTheme {
-        Greeting("Android")
+        MindEaseApp(modifier = Modifier)
     }
 }

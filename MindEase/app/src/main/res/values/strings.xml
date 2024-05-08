@@ -1,3 +1,126 @@
 <resources>
     <string name="app_name">MindEase</string>
+
+    <string-array name="days">
+        <item>Day 1</item>
+        <item>Day 2</item>
+        <item>Day 3</item>
+        <item>Day 4</item>
+        <item>Day 5</item>
+        <item>Day 6</item>
+        <item>Day 7</item>
+        <item>Day 8</item>
+        <item>Day 9</item>
+        <item>Day 10</item>
+        <item>Day 11</item>
+        <item>Day 12</item>
+        <item>Day 13</item>
+        <item>Day 14</item>
+        <item>Day 15</item>
+        <item>Day 16</item>
+        <item>Day 17</item>
+        <item>Day 18</item>
+        <item>Day 19</item>
+        <item>Day 20</item>
+        <item>Day 21</item>
+        <item>Day 22</item>
+        <item>Day 23</item>
+        <item>Day 24</item>
+        <item>Day 25</item>
+        <item>Day 26</item>
+        <item>Day 27</item>
+        <item>Day 28</item>
+        <item>Day 29</item>
+        <item>Day 30</item>
+    </string-array>
+
+    <string name="tip_title_1">Meditate for 10 minutes</string>
+    <string name="tip_description_1">Start your day with a short meditation session to center your thoughts and calm your mind. Use this time to set a peaceful tone for the day ahead and focus on your breath.</string>
+
+    <string name="tip_title_2">Practice deep breathing</string>
+    <string name="tip_description_2">Take a few minutes throughout the day to do deep breathing exercises. This can help reduce stress, increase oxygen flow, and bring you back to the present moment.</string>
+
+    <string name="tip_title_3">Journaling</string>
+    <string name="tip_description_3">Spend time writing in a journal to express your thoughts and feelings. Journaling can help you process emotions, gain clarity, and track your personal growth over time.</string>
+
+    <string name="tip_title_4">Unplug from technology</string>
+    <string name="tip_description_4">Dedicate a portion of your day to be free from screens and devices. This break can help you recharge and allow you to be more present in your surroundings.</string>
+
+    <string name="tip_title_5">Go for a walk in nature</string>
+    <string name="tip_description_5">Being outside in nature can refresh your mind and body. Take time to enjoy the sights, sounds, and smells of your surroundings for a calming and rejuvenating experience.</string>
+
+    <string name="tip_title_6">Stretch your body</string>
+    <string name="tip_description_6">Take a few moments to stretch your muscles, especially if you sit for long periods. Stretching can relieve tension and improve your flexibility and posture.</string>
+
+    <string name="tip_title_7">Drink enough water</string>
+    <string name="tip_description_7">Staying hydrated is essential for overall well-being. Aim to drink water consistently throughout the day to keep your energy levels up and support your bodily functions.</string>
+
+    <string name="tip_title_8">Set intentions for the day</string>
+    <string name="tip_description_8">Start your day with a clear goal in mind. Setting intentions helps you stay focused and motivated, guiding your actions toward achieving your desired outcomes.</string>
+
+    <string name="tip_title_9">Practice gratitude</string>
+    <string name="tip_description_9">Reflect on things you are thankful for each day. Practicing gratitude can boost your mood and help you develop a positive outlook on life.</string>
+
+    <string name="tip_title_10">Listen to calming music</string>
+    <string name="tip_description_10">Music can influence your mood and help you relax. Choose calming melodies or sounds of nature to create a soothing ambiance and enhance your sense of peace.</string>
+
+    <string name="tip_title_11">Read for pleasure</string>
+    <string name="tip_description_11">Spend some time reading a book you enjoy. Whether it\'s fiction, non-fiction, or poetry, immersing yourself in a good book can be a relaxing escape.</string>
+
+    <string name="tip_title_12">Practice mindful eating</string>
+    <string name="tip_description_12">Pay attention to what and how you eat. Mindful eating can enhance your enjoyment of meals and help you become more attuned to your body\'s hunger and fullness signals.</string>
+
+    <string name="tip_title_13">Take a bath or a hot shower</string>
+    <string name="tip_description_13">Warm water can be relaxing and therapeutic. Treat yourself to a bath with calming scents and soothing music to unwind and refresh your body and mind.</string>
+
+    <string name="tip_title_14">Try yoga or stretching exercises</string>
+    <string name="tip_description_14">These practices can help you maintain flexibility, improve posture, and reduce stress. Try different poses and stretches to find what suits you best.</string>
+
+    <string name="tip_title_15">Focus on your breath</string>
+    <string name="tip_description_15">Practice breath awareness to bring your attention to the present moment. This technique can help you reduce anxiety and achieve a sense of calm and clarity.</string>
+
+    <string name="tip_title_16">Prioritize sleep</string>
+    <string name="tip_description_16">Aim for 7–9 hours of quality sleep each night. Consistent rest supports your physical and mental health, enhancing your overall well-being and energy levels.</string>
+
+    <string name="tip_title_17">Create a self-care routine</string>
+    <string name="tip_description_17">Set aside time each day for activities that rejuvenate you. Whether it\'s exercise, hobbies, or meditation, consistent self-care promotes balance and resilience.</string>
+
+    <string name="tip_title_18">Disconnect from negative news</string>
+    <string name="tip_description_18">Limit your exposure to distressing news. Taking breaks from the news can help you protect your mental health and maintain a more positive perspective.</string>
+
+    <string name="tip_title_19">Practice self-compassion</string>
+    <string name="tip_description_19">Be kind to yourself and acknowledge your achievements. Practicing self-compassion can boost your self-esteem and overall emotional well-being.</string>
+
+    <string name="tip_title_20">Do something creative</string>
+    <string name="tip_description_20">Engage in an artistic or creative activity. Creative expression can provide a sense of fulfillment and allow you to channel your thoughts and emotions in a healthy way.</string>
+
+    <string name="tip_title_21">Take regular breaks at work</string>
+    <string name="tip_description_21">Step away from your desk to refresh your mind. Regular breaks can improve productivity and prevent burnout, helping you stay focused and energized.</string>
+
+    <string name="tip_title_22">Spend time with loved ones</string>
+    <string name="tip_description_22">Social connection is important for your mental health. Spending time with family and friends can provide emotional support and strengthen your relationships.</string>
+
+    <string name="tip_title_23">Visualize positive outcomes</string>
+    <string name="tip_description_23">Practice visualization techniques for your goals. Imagining your success can increase your motivation and help you stay on track toward achieving your aspirations.</string>
+
+    <string name="tip_title_24">Try aromatherapy</string>
+    <string name="tip_description_24">Scents can have a soothing effect on your mood. Use essential oils or candles to create a calming environment that promotes relaxation and well-being.</string>
+
+    <string name="tip_title_25">Establish healthy boundaries</string>
+    <string name="tip_description_25">Learn to say "no" when necessary and protect your energy. Setting boundaries can help you maintain balance and prioritize your well-being.</string>
+
+    <string name="tip_title_26">Get organized</string>
+    <string name="tip_description_26">Decluttering your space can improve your mental clarity. Organize your home or workspace to create an environment that supports focus and productivity.</string>
+
+    <string name="tip_title_27">Volunteer or help someone</string>
+    <string name="tip_description_27">Giving back can bring fulfillment and perspective. Offering your time or resources to help others can provide a sense of purpose and connection.</string>
+
+    <string name="tip_title_28">Set a personal development goal</string>
+    <string name="tip_description_28">Work on something that will help you grow. Setting goals for self-improvement can enhance your skills and give you a sense of achievement.</string>
+
+    <string name="tip_title_29">Reflect on your progress</string>
+    <string name="tip_description_29">Take time to acknowledge how far you\'ve come. Reflecting on your journey can provide motivation and help you appreciate your accomplishments.</string>
+
+    <string name="tip_title_30">Practice forgiveness</string>
+    <string name="tip_description_30">Let go of grudges and negative feelings to find peace. Practicing forgiveness can free you from emotional burdens and improve your overall well-being.</string>
 </resources>
