@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PracticeOne</string>
+
+    <string name ="find_your_experience">Find Your Experience </string>
+    <string name ="experience">Experience</string>
+    <string name ="adventures">Adventures</string>
+    <string name ="activities">Activities</string>
+    <string name ="extreme_surf">Extreme Surf</string>
+    <string name ="santa_cruz">Santa Cruz</string>
+    <string name ="kayaking_lake">Kayaking Lake</string>
+    <string name ="lake_powel">Lake Powel </string>
+    <string name="what_would_you_like">What would you like/?</string>
+    <string name ="kayak">Kayak</string>
+    <string name ="driving">Driving </string>
+    <string name ="climbing">Climbing</string>
+    <string name ="trekking">Trekking</string>
+    <string name ="view_all">View all</string>
+</resources>
