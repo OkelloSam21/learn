@@ -5,14 +5,14 @@
     <string name ="experience">Experience</string>
     <string name ="adventures">Adventures</string>
     <string name ="activities">Activities</string>
-    <string name ="extreme_surf">Extreme Surf</string>
-    <string name ="santa_cruz">Santa Cruz</string>
-    <string name ="kayaking_lake">Kayaking Lake</string>
-    <string name ="lake_powel">Lake Powel </string>
+    <string name ="experience_title_1">Extreme Surf</string>
+    <string name ="experience_location_1">Santa Cruz</string>
+    <string name ="experience_title_2">Kayaking Lake</string>
+    <string name ="experience_location_2">Lake Powel </string>
     <string name="what_would_you_like">What would you like/?</string>
-    <string name ="kayak">Kayak</string>
-    <string name ="driving">Driving </string>
-    <string name ="climbing">Climbing</string>
-    <string name ="trekking">Trekking</string>
+    <string name ="preference_name_1">Kayak</string>
+    <string name ="preference_name_2">Driving </string>
+    <string name ="preference_name_3">Climbing</string>
+    <string name ="preference_name_4">Trekking</string>
     <string name ="view_all">View all</string>
 </resources>
